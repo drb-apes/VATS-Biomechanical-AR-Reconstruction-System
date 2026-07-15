@@ -1,0 +1,4 @@
+﻿Layer,Function,Key Components,Integration Role
+Autonoid Racing System,Real‑time proprioceptive sensing and control,"Wheel‑hub IMUs, stereo camera, optical‑flow array, Jetson Orin Nano, Teensy 4.1 MCU",Generates rhythm‑based telemetry and corner‑signature data for VATS logging
+VATS EDR Module,Secure crash‑event capture and forensic data signing,"NXP S32K MCU + HSE/ECDSA engine, supercap backup, eMMC (pSLC) storage","Buffers pre‑crash data, detects Delta‑V, signs and encrypts records"
+Racing Team Interface,Post‑race analytics and diagnostics,"Secure data export, cloud telemetry upload",Provides signed telemetry for performance review and vehicle diagnostics
